@@ -143,7 +143,7 @@ lucas.pen = rg.Pen('purple', 5)
 lucas.speed = 30
 size = 500
 
-for k in range(13):
+for k in range(10):
 
     lucas.draw_square(90)
 
@@ -162,7 +162,14 @@ for k in range(13):
     size = size
 
     lucas.pen_up()
-    lucas.left(12)
+    lucas.left(90)
+    lucas.forward(4)
+
+    lucas.pen_down()
+    size = size
+
+    lucas.pen_up()
+    lucas.left(90)
     lucas.forward(4)
 
     lucas.pen_down()
@@ -170,64 +177,37 @@ for k in range(13):
 
     lucas.pen_up()
     lucas.left(24)
-    lucas.forward(10)
+    lucas.forward(75)
 
     lucas.pen_down()
     size = size
 
     lucas.pen_up()
     lucas.left(24)
-    lucas.forward(10)
+    lucas.forward(75)
 
     lucas.pen_down()
     size = size
 
     lucas.pen_up()
-    lucas.left(24)
-    lucas.forward(10)
+    lucas.left(90)
+    lucas.forward(72)
 
     lucas.pen_down()
     size = size
 
     lucas.pen_up()
-    lucas.left(24)
-    lucas.forward(10)
+    lucas.left(90)
+    lucas.forward(72)
 
     lucas.pen_down()
     size = size
 
     lucas.pen_up()
-    lucas.left(24)
-    lucas.forward(10)
+    lucas.left(90)
+    lucas.forward(72)
 
     lucas.pen_down()
     size = size
 
-    lucas.pen_up()
-    lucas.left(24)
-    lucas.forward(10)
-
-    lucas.pen_down()
-    size = size
-
-    lucas.pen_up()
-    lucas.left(30)
-    lucas.forward(15)
-
-    lucas.pen_down()
-    size = size
-
-    lucas.pen_up()
-    lucas.left(30)
-    lucas.forward(15)
-
-    lucas.pen_down()
-    size = size
-
-    lucas.pen_up()
-    lucas.left(30)
-    lucas.forward(15)
-
-    lucas.pen_down()
-    size = size
 window.close_on_mouse_click()
